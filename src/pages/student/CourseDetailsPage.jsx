@@ -145,6 +145,7 @@ function StudentViewCourseDetailsPage() {
     if (!location.pathname.includes("course/details"))
       setStudentViewCourseDetails(null),
         setCurrentCourseDetailsId(null),
+        // eslint-disable-next-line no-undef
         setCoursePurchaseId(null);
   }, [location.pathname]);
 
